@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_works/chessboard.dart';
 import 'package:flutter_works/myContainers.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MyContainers(),
+      home: Chessboard(),
     );
   }
 }
