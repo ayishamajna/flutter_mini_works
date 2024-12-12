@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_works/chessboard.dart';
-import 'package:flutter_works/myContainers.dart';
+import 'package:flutter_works/mediaContainer.dart';
+import 'package:flutter_works/myStack.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,13 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: Chessboard(),
-    );
+        debugShowCheckedModeBanner: false,
+        title: 'Flutter Demo',
+        theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          useMaterial3: true,
+        ),
+        home: MediaContainer());
   }
 }
