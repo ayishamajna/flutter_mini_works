@@ -5,13 +5,10 @@ class Blackcontainer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      width: 200,
-      child: TextFormField(
-        decoration: InputDecoration(
-          border: OutlineInputBorder(),
-        ),
-      ),
+    return Container(
+      height: 50,
+      width: 50,
+      color: Colors.black,
     );
   }
 }
